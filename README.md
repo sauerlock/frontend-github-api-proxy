@@ -1,26 +1,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 # github-api-proxy
+ 
  The following API query the users from the GitHubApi using a express.js and node.js server, it shows the users details when selected on the frontend with React. 
-
-
-The following API query the users from the GitHubApi using a express.js and node.js server, it shows the users details when selected on the frontend with React.
 
 Github User Search This is a web app that allows users to search for Github users and view their profiles and repositories details.
 
-Prerequisites Make sure you have the following installed:
+Prerequisites make sure you have the following installed:
 
     Node.js v18 or above
     NPM v9 or above
