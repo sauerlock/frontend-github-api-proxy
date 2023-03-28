@@ -13,58 +13,48 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+# github-api-proxy
+ The following API query the users from the GitHubApi using a express.js and node.js server, it shows the users details when selected on the frontend with React. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following API query the users from the GitHubApi using a express.js and node.js server, it shows the users details when selected on the frontend with React.
 
-### `npm run build`
+Github User Search This is a web app that allows users to search for Github users and view their profiles and repositories details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prerequisites Make sure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Node.js v18 or above
+    NPM v9 or above
+    Express
+    Axios
+    React (and all its dependencies)
+    React Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation
 
-### `npm run eject`
+    Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    bash git clone https://github.com/your-github-username/github-user-search.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install the required packages in both frontend and api directories:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    cd frontend
+    npm install
+    Replace the TOKEN constant in api/server.js with your Github personal access token.(The token is already set only for the API use.)
+    cd ../api
+    npm install
+    To search for a Github user, type the username in the search bar and click the search button.
+    The user's profile will be displayed in a card.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Usage
 
-## Learn More
+    Start the server by running the following command inside the api directory: node server.js The server should start running at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the React app by running the following command inside the frontend directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    npm start
+    The app should open automatically in your default browser at http://localhost:3001.
+    To search for a Github user, type the username in the search bar and click the search button.
+    The user's profile will be displayed in a card.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License This project is licensed under the MIT License.
