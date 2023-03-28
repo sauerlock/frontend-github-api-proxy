@@ -42,7 +42,7 @@ h1 {
 
 .tableList .paginationButtons {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   margin-top: auto
 }
 

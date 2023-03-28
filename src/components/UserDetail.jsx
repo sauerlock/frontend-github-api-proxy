@@ -46,6 +46,7 @@ const UserDetail = () => {
 
   return (
     <div className="user-detail-container">
+     
       <h1>{userDataRef.current?.login} </h1>
       <Table  bordered hover size='sm' variant="dark">
           <thead>

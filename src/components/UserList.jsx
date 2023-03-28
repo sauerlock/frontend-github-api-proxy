@@ -79,7 +79,7 @@
                     </tbody>
                   </Table>
                   <div className="paginationButtons">
-                    <Button variant="outline-dark" onClick={handleNext} disabled={!nextLink}>
+                    <Button variant="secondary  " onClick={handleNext} disabled={!nextLink}>
                       Next
                     </Button>
                   </div>
