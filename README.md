@@ -6,7 +6,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-# github-api-proxy
+# Frontend - GitHub Api Proxy
+Backend Repository - https://github.com/sauerlock/github-api-proxy.git
+
  
  The following API query the users from the GitHubApi using a express.js and node.js server, it shows the users details when selected on the frontend with React. 
 
