@@ -31,15 +31,19 @@ Installation
     bash git clone https://github.com/sauerlock/frontend.git
 
 Usage
-
-    Start the server by running the following command inside the api directory: npm start 
-    The server should start running at [http://localhost:3000] (http://localhost:300).
-
 Start the React app by running the following command inside the frontend directory:
 
     npm start
-    The app should open automatically in your default browser at http://localhost:3001.
-    To search for a Github user, type the username in the search bar and click the search button.
-    The user's profile will be displayed in a card.
+    
+    The app should open automatically in your default browser at [http://localhost:3000] http://localhost:3000.
+
+Start the Api Server by running the following command inside the api directory:
+
+    node server.js 
+
+Start the server by running the following command inside the api directory:
+
+    The server should start running at [http://localhost:3001] (http://localhost:3001).
+
 
 License This project is licensed under the MIT License.
