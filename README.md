@@ -35,7 +35,7 @@ Start the React app by running the following command inside the frontend directo
 
     npm start
     
-    The app should open automatically in your default browser at [http://localhost:3000] http://localhost:3000.
+    The app should open automatically in your default browser at http://localhost:3000
 
 Start the Api Server by running the following command inside the api directory:
 
@@ -43,7 +43,7 @@ Start the Api Server by running the following command inside the api directory:
 
 Start the server by running the following command inside the api directory:
 
-    The server should start running at [http://localhost:3001] (http://localhost:3001).
+    The server should start running at http://localhost:3001.
 
 
 License This project is licensed under the MIT License.
